@@ -10,7 +10,7 @@
         <script>
             var hash = window.location.hash;
             if(hash == ""){
-                window.location.href = "www.baidu.com";
+                window.location.href = "https://www.baidu.com";
             }else{
                 window.location.hash = "";
             }
