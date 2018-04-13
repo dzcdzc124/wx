@@ -8,7 +8,12 @@
     <body>
         <img src="./images/120.jpg" alt="">
         <script>
-
+            var hash = window.location.hash;
+            if(hash == ""){
+                window.location.href = "www.baidu.com";
+            }else{
+                window.location.hash = "";
+            }
         </script>
     </body>
 </html>
